@@ -1,0 +1,21 @@
+.item{
+    background: #52e944;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin: 3px;
+}
+.grid-simple{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.grid-fr{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.grid-gap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
